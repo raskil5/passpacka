@@ -1,0 +1,107 @@
+Package: chinadns-ng
+Version: 2025.08.09-r1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+URL: https://github.com/zfl9/chinadns-ng
+Architecture: mipsel_24kc
+Installed-Size: 655360
+Filename: chinadns-ng_2025.08.09-r1_mipsel_24kc.ipk
+Size: 299513
+SHA256sum: bde547b9ca6719cf0b6cb8dd40f6c865b0e58dc6d8af5aa0d8c5c3120ea21b1e
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: geoview
+Version: 0.1.10-r1
+Depends: libc
+License: Apache-2.0
+Section: net
+URL: https://github.com/snowie2000/geoview
+Architecture: mipsel_24kc
+Installed-Size: 6072320
+Filename: geoview_0.1.10-r1_mipsel_24kc.ipk
+Size: 2017567
+SHA256sum: 96f5d5342a4d86ca051ad0d53d1d1024ccac7832a484c201dc4c85cd24623f8b
+Description:  geoview is a handy tool to extract useful information from geo* files.
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-r13
+Depends: libc, libev, libmbedtls21, libpthread, libsodium, libpcre2
+License: GPL-3.0-or-later
+Section: net
+URL: https://github.com/shadowsocks/shadowsocks-libev
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: shadowsocks-libev-ss-local_3.3.5-r13_mipsel_24kc.ipk
+Size: 47580
+SHA256sum: d9d72a9fa7931a63218bf0f7dbe7228eb305db758d9a6dfd8d2b04735615ab08
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-r13
+Depends: libc, libev, libmbedtls21, libpthread, libsodium
+License: GPL-3.0-or-later
+Section: net
+URL: https://github.com/shadowsocks/shadowsocks-libev
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: shadowsocks-libev-ss-redir_3.3.5-r13_mipsel_24kc.ipk
+Size: 43036
+SHA256sum: 9ee2e1c8396975431b4545879328c26cc1685336156f1449d32524527720b544
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+License: GPL-3.0
+Section: net
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: mipsel_24kc
+Installed-Size: 204800
+Filename: shadowsocksr-libev-ssr-local_2.5.6-r11_mipsel_24kc.ipk
+Size: 58450
+SHA256sum: d95593f93e364e7cc1f4bfe95e83c908cb5bf47b8abf4258fb5374f8966ae3c8
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+License: GPL-3.0
+Section: net
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-r11_mipsel_24kc.ipk
+Size: 52973
+SHA256sum: 3f1e292cc764b2e88f3165fabb62dbfa462a6564c5f6c7629abc018b5504c27b
+Description:  shadowsocksr-libev ssr-redir
+
+Package: simple-obfs-client
+Version: 0.0.5-r3
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+License: GPL-3.0-or-later
+Section: net
+URL: https://github.com/shadowsocks/simple-obfs
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: simple-obfs-client_0.0.5-r3_mipsel_24kc.ipk
+Size: 24789
+SHA256sum: 10c1e96dc8d2aedaa420576725c1bda46cd7438264988d1009163c27c9a901b0
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-r1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+URL: https://github.com/jlyo/tcping
+Architecture: mipsel_24kc
+Installed-Size: 20480
+Filename: tcping_0.3-r1_mipsel_24kc.ipk
+Size: 4437
+SHA256sum: c25f1968e7540b97767b2a61bb38b30e80e2867cbede85f40a131342189c56c9
+Description:  tcping measures the latency of a tcp-connection
+

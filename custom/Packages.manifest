@@ -1,0 +1,45 @@
+Package: luci-app-modemband
+Version: 1.0.25-r20241111
+Depends: libc, sms-tool, modemband
+Source: /home/agi/Desktop/modemband/luci-app-modemband
+SourceName: luci-app-modemband
+Section: luci
+SourceDateEpoch: 1755606133
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 102400
+Filename: luci-app-modemband_1.0.25-r20241111_all.ipk
+Size: 10181
+SHA256sum: 7c5515eadac07d0b21af91d75be067f9842d41fa889122c092ed70fb9a39388b
+Description:  LuCI JS interface for the modemband. The package allows set LTE/5G bands for selected 4G/5G modems.
+
+Package: modemband
+Version: 20240616
+Depends: libc, sms-tool
+Source: /home/agi/Desktop/modemband/modemband
+SourceName: modemband
+Section: net
+SourceDateEpoch: 1755606133
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 20480
+Filename: modemband_20240616_all.ipk
+Size: 3542
+SHA256sum: c5dc3991f25fad65f2020bdfec83a9c09b2761de00296a2df0509c44aad8c86b
+Description:  Setting LTE/5G bands for selected modems
+
+Package: s12-pro-signald
+Version: 1.0.0-r1
+Depends: libc, sms-tool
+Source: /home/agi/Desktop/modemband/s12-pro-signald
+SourceName: s12-pro-signald
+Section: utils
+SourceDateEpoch: 1755606133
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: s12-pro-signald_1.0.0-r1_mipsel_24kc.ipk
+Size: 1303
+SHA256sum: 690e64dce5913ea92ed826fed3e517af8a35e0039c9bbcf378354d6f8776ff83
+Description:  Updates the signal LEDs on the ZLT S12 Pro according to LTE signal strength
+

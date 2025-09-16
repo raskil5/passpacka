@@ -1,0 +1,12 @@
+Package: luci-app-passwall2
+Version: 25.9.4-r1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 1044480
+Filename: luci-app-passwall2_25.9.4-r1_all.ipk
+Size: 267903
+SHA256sum: bd89f88c8cd49e8a5dc7c5989393c56d5fdff7e7cf8b7b13bb443061e282f056
+Description:  LuCI support for PassWall 2
+

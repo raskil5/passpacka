@@ -1,0 +1,12 @@
+Package: luci-app-3ginfo-lite
+Version: 1.0.74-r20241111
+Depends: libc, sms-tool, comgt, kmod-usb-serial-option
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 563200
+Filename: luci-app-3ginfo-lite_1.0.74-r20241111_all.ipk
+Size: 112187
+SHA256sum: ee89c931184c3228a6a4cb0b4a0b6f0a7740d1176b7fe0dd867f1d6754c44b59
+Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
+

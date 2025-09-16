@@ -1,0 +1,429 @@
+Package: boost-program_options
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: mipsel_24kc
+Installed-Size: 276480
+Filename: boost-program_options_1.86.0-r1_mipsel_24kc.ipk
+Size: 77986
+SHA256sum: b6f4802f5dd2044df3e4a5af3b8fedf6dc6c3837489eabdf18d0f8cf6899a25d
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: boost-system_1.86.0-r1_mipsel_24kc.ipk
+Size: 1705
+SHA256sum: 9e01a6b6755539e5210f60a3391e473003f068134208720294f235c4b025d905
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.86.0-r1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+URL: https://www.boost.org
+CPE-ID: cpe:/a:boost:boost
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: boost_1.86.0-r1_mipsel_24kc.ipk
+Size: 1248
+SHA256sum: 74f658b191a70b0993ffca43d036335205ecbd814be605f1aefb7f3a465c93ee
+Description:  This package provides the Boost v1.86.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - charconv
+ - chrono
+ - cobalt
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - json
+ - locale
+ - log
+ - math
+ - nowide
+ - program_options
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - url
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_86_0/
+
+Package: cgi-io
+Version: 2022.08.10~901b0f04-r21
+Depends: libc, libubox20240329, libubus20250102
+License: GPL-2.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 81920
+Filename: cgi-io_2022.08.10~901b0f04-r21_mipsel_24kc.ipk
+Size: 8278
+SHA256sum: b879994cb7f0083ac2392f0274f6d48e37207149b15b7a11fd85cd795dce0cee
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-base64
+Version: 9.3-r1
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: coreutils-base64_9.3-r1_mipsel_24kc.ipk
+Size: 20044
+SHA256sum: fea8c1518671fa19f9afb8f021e38ed8587d45683bc616941a7508dd1a717c2e
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 9.3-r1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/libexec/nohup-coreutils
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: coreutils-nohup_9.3-r1_mipsel_24kc.ipk
+Size: 18558
+SHA256sum: 9161e26c964e19c3a0169b90d5822b8426a58c1f79c04e5f0819fe247fae8d8a
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils
+Version: 9.3-r1
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: coreutils_9.3-r1_mipsel_24kc.ipk
+Size: 1003
+SHA256sum: 89f039a3e44b39e48fd76764a5959f5ddc8cd6d246d93651dd2fe518bf41b66a
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 8.10.1-r1
+Depends: libc, libcurl4
+License: MIT
+Section: net
+URL: https://curl.se/
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: curl_8.10.1-r1_mipsel_24kc.ipk
+Size: 65469
+SHA256sum: 00eaa75db2d0f693e1ab7ecede321f9c1b31f2c515eb443c3476a95beb6dd1eb
+Description:  A client-side URL transfer utility
+
+Package: libcurl4
+Version: 8.10.1-r1
+Depends: libc, libmbedtls21, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+URL: https://curl.se/
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: mipsel_24kc
+Installed-Size: 409600
+Filename: libcurl4_8.10.1-r1_mipsel_24kc.ipk
+Size: 198734
+SHA256sum: 96eda5c3e6309d5bfc890b9edad239f291f2b2a95bc8b574d78afbdde71038e2
+Description:  A client-side URL transfer library
+
+Package: libev
+Version: 4.33-r2
+Depends: libc
+License: BSD-2-Clause or GPL-2.0-or-later
+Section: libs
+URL: http://software.schmorp.de/pkg/libev.html
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: libev_4.33-r2_mipsel_24kc.ipk
+Size: 24008
+SHA256sum: 0e41ed4f23c781d8888c18f1715c67d4cfa5fadf9f280928802dc68a94e3d915
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libevdev
+Version: 1.13.1-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://www.freedesktop.org/wiki/Software/libevdev/
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: libevdev_1.13.1-r1_mipsel_24kc.ipk
+Size: 24359
+SHA256sum: b801e09378bb1f873350ad1649480d1df13231b1701f4e2a868519e3209f6f02
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libnghttp2-14
+Version: 1.63.0-r1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+CPE-ID: cpe:/a:nghttp2:nghttp2
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: libnghttp2-14_1.63.0-r1_mipsel_24kc.ipk
+Size: 61301
+SHA256sum: 3d0429c4486a13f06301513a1628e7dca1521824ab33914f44bb29ae13e7d858
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libsodium
+Version: 1.0.19-r1
+Depends: libc
+License: ISC
+Section: libs
+URL: https://github.com/jedisct1/libsodium
+Architecture: mipsel_24kc
+Installed-Size: 337920
+Filename: libsodium_1.0.19-r1_mipsel_24kc.ipk
+Size: 150501
+SHA256sum: d2d9643aed7b3162728292901d694bd27dd20dfc2a5b8a05a7bd087d34a0c1a9
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libudev-zero
+Version: 1.0.3-r1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+License: MIT
+Section: libs
+URL: https://github.com/illiliti/libudev-zero
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: libudev-zero_1.0.3-r1_mipsel_24kc.ipk
+Size: 8600
+SHA256sum: e0844398cf780f9259a38d7a2b4b1a3ef90757b0b53db4c6e68ced7f71042c05
+Description:  Drop-in replacement for libudev
+
+Package: libudns
+Version: 0.4-r1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+URL: http://www.corpit.ru/mjt/udns.html
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: libudns_0.4-r1_mipsel_24kc.ipk
+Size: 16640
+SHA256sum: 14a4c593ddce616ee2253c1b89211c4b6e3542afd532362d77519c02b909dea5
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: microsocks
+Version: 1.0.4-r2
+Depends: libc
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 81920
+Filename: microsocks_1.0.4-r2_mipsel_24kc.ipk
+Size: 5929
+SHA256sum: 734e8d4f734e87dc2b86f5ff5485da2c0d8f48e12cb4727c879a2fff7f94ecde
+Description:  Low resource SOCKS5 proxy.
+ Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: mwan3
+Version: 2.11.16-r5
+Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 112640
+Filename: mwan3_2.11.16-r5_all.ipk
+Size: 22350
+SHA256sum: 4eb4faf8e9ec87795a3938463ad35184051a395153fcf1d3486fc01c10f452ab
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: sms-tool
+Version: 2023.09.21~1b6ca032-r1
+Depends: libc
+License: Apache-2.0
+Section: utils
+URL: https://github.com/obsy/sms_tool
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: sms-tool_2023.09.21~1b6ca032-r1_mipsel_24kc.ipk
+Size: 8123
+SHA256sum: e8d1e5cc274637f2c6c24aa557b022ba87290e715a7de72cd1f0365a25c02031
+Description:  SMS Tool for 3G/4G modem
+
+Package: uhubctl
+Version: 2.6.0-r1
+Depends: libc, libusb-1.0-0
+License: GPL-2.0-only
+Section: utils
+URL: https://github.com/mvp/uhubctl
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: uhubctl_2.6.0-r1_mipsel_24kc.ipk
+Size: 8509
+SHA256sum: 91544fd471fce1e4a39e49855c64aada02cae3b3d9968bc46407a98c7fa29011
+Description:  uhubctl is a utility that allows you to control USB power on USB hubs that
+ implement per-port or ganged power switching.
+
+Package: unzip
+Version: 6.0-r8
+Depends: libc
+License: BSD-4-Clause
+Section: utils
+URL: http://infozip.sourceforge.net/UnZip.html
+CPE-ID: cpe:/a:info-zip:unzip
+Architecture: mipsel_24kc
+Installed-Size: 276480
+Filename: unzip_6.0-r8_mipsel_24kc.ipk
+Size: 102958
+SHA256sum: 5c4c74cdccb33429f1d3efba54f243f49749401dd4da2fdc22f07b0ccac634ef
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: usbids
+Version: 0.387-r1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+URL: https://github.com/vcrhonek/hwdata
+Architecture: mipsel_24kc
+Installed-Size: 737280
+Filename: usbids_0.387-r1_mipsel_24kc.ipk
+Size: 255793
+SHA256sum: ec47966fc4f6d1c3c07eccb3bba6353864c9c982e6b41bcfba06ee63eb6622b6
+Description:  USB ID list
+
+Package: usbutils
+Version: 017-r1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread, usbids
+License: GPL-2.0-only
+Section: utils
+URL: http://www.linux-usb.org/
+Architecture: mipsel_24kc
+Installed-Size: 225280
+Filename: usbutils_017-r1_mipsel_24kc.ipk
+Size: 52227
+SHA256sum: 2d2c69512f71d7fbaf5bba631d758cd1ff2f4e6de3a5bc678cf69d57bbd1ce84
+Description:  USB devices listing utilities
+
+Package: v2ray-core
+Version: 5.22.0-r1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+URL: https://www.v2fly.org
+Architecture: mipsel_24kc
+Installed-Size: 35184640
+Filename: v2ray-core_5.22.0-r1_mipsel_24kc.ipk
+Size: 10791151
+SHA256sum: 8017566c684a5ec0722870134fdecbd822f9ba0ae1c317d9776176c667b61254
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-geoip
+Version: 202501020052-r1
+Depends: libc
+Provides: v2ray-geodata, xray-geodata, xray-geoip
+License: CC-BY-SA-4.0
+Section: net
+URL: https://www.v2fly.org
+Architecture: all
+Installed-Size: 15503360
+Filename: v2ray-geoip_202501020052-r1_all.ipk
+Size: 3111654
+SHA256sum: fed955133addced911d0a8e67c10225f0878c6568a97a132621dbc17a54aa247
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20241221105938-r1
+Depends: libc
+Provides: v2ray-geodata, xray-geodata, xray-geosite
+License: MIT
+Section: net
+URL: https://www.v2fly.org
+Architecture: all
+Installed-Size: 2191360
+Filename: v2ray-geosite_20241221105938-r1_all.ipk
+Size: 632389
+SHA256sum: 70b9759e3d86c79ed7261f99a01ee5d0659e3b8da5e19354a016c7fa98469f93
+Description:  Geosite List for V2Ray
+
+Package: v2raya
+Version: 2.2.6.3-r1
+Depends: libc, ca-bundle, kmod-nft-tproxy, xray-core
+License: AGPL-3.0-only
+Section: net
+URL: https://v2raya.org
+Architecture: mipsel_24kc
+Installed-Size: 29102080
+Filename: v2raya_2.2.6.3-r1_mipsel_24kc.ipk
+Size: 10938347
+SHA256sum: a4555a631ee98cdfdce5a7b3ed03d348a550f82058cd3022f93baa0c8c3d57bf
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
+
+Package: xray-core
+Version: 24.12.31-r1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+URL: https://xtls.github.io
+Architecture: mipsel_24kc
+Installed-Size: 29900800
+Filename: xray-core_24.12.31-r1_mipsel_24kc.ipk
+Size: 9256952
+SHA256sum: da3513e61edd89e28624dd7c9701afcd7118224e5a7c14b6e74dbfb65249e0d0
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+

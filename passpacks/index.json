@@ -1,0 +1,1 @@
+{"architecture": "mipsel_24kc", "packages":{"chinadns-ng": "2025.08.09-r1", "geoview": "0.1.10-r1", "shadowsocks-libev-ss-local": "3.3.5-r13", "shadowsocks-libev-ss-redir": "3.3.5-r13", "shadowsocksr-libev-ssr-local": "2.5.6-r11", "shadowsocksr-libev-ssr-redir": "2.5.6-r11", "simple-obfs-client": "0.0.5-r3", "tcping": "0.3-r1"}}
