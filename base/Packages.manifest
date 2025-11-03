@@ -1,3 +1,48 @@
+Package: adb-enablemodem
+Version: 2017.03.05-r1
+Depends: libc, adb
+Source: feeds/base/network/utils/adb-enablemodem
+SourceName: adb-enablemodem
+Section: net
+SourceDateEpoch: 1730156873
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: adb-enablemodem_2017.03.05-r1_mipsel_24kc.ipk
+Size: 1556
+SHA256sum: 27f668d9a0d76391804f28d94bd7f51b5a7bbdffd69c7dd878b5bac71b1ea305
+Description:  Enable modem via adb
+
+Package: adb
+Version: 5.0.2~6fe92d1a-r3
+Depends: libc, zlib, libopenssl3, libpthread
+Source: feeds/base/utils/adb
+SourceName: adb
+Section: utils
+SourceDateEpoch: 1730156874
+URL: http://tools.android.com/
+CPE-ID: cpe:/a:google:android_debug_bridge
+Maintainer: Henryk Heisig <hyniu@o2.pl>
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: adb_5.0.2~6fe92d1a-r3_mipsel_24kc.ipk
+Size: 48227
+SHA256sum: b909e45afb9931d9d54e9b7bfacc82fe24e562857254968af47ae8cd663c2e7d
+Description:  Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
+
+Package: bandlock
+Version: 1
+Depends: libc, kmod-pack-agi
+Source: feeds/base/bandlock
+SourceName: bandlock
+Section: utils
+SourceDateEpoch: 1755606133
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: bandlock_1_mipsel_24kc.ipk
+Size: 3384
+SHA256sum: 9257baaf0e291687427af20993954e5aa3e27eacde621a27674e5a5f14c6be11
+Description:  User-space binary to auto-detect modem and send AT band-lock commands.
+
 Package: blkid
 Version: 2.40.2-r1
 Depends: libc, libblkid1, libuuid1
@@ -56,6 +101,21 @@ Filename: ca-bundle_20240203-r1_all.ipk
 Size: 128163
 SHA256sum: e648f53a4aee18cb4705be91fe7326a1957a30376d340ff7cdc2e8d2d159acf2
 Description:  System CA certificates as a bundle
+
+Package: cellock
+Version: 1
+Depends: libc, sms-tool, adb, kmod-pack-agi
+Source: feeds/base/cellock
+SourceName: cellock
+Section: utils
+SourceDateEpoch: 1755606133
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: cellock_1_mipsel_24kc.ipk
+Size: 4051
+SHA256sum: 1e452f3d45032eb3809e50e80ca4acdadd66313964f42d78bd4c82e3661d5724
+Description:  User-space binary to lock LTE modem to specific cell using EARFCN and PCI values.
+ Supports both setting and clearing cell locks.
 
 Package: chat
 Version: 2.5.1-r1
@@ -870,6 +930,31 @@ Size: 112355
 SHA256sum: 5244f47b8491fe143ee1cb4b0510afe3a48221b0df034d11c23d8acd720d3f2e
 Description:  A Perl Compatible Regular Expression library
 
+Package: libreadline8
+Version: 8.2-r2
+Depends: libc, libncursesw6
+Provides: libreadline
+Source: feeds/base/libs/readline
+SourceName: readline
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1732819649
+URL: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:readline
+Architecture: mipsel_24kc
+Installed-Size: 286720
+Filename: libreadline8_8.2-r2_mipsel_24kc.ipk
+Size: 111566
+SHA256sum: 0c2bff82d988188845739624467c004a38443ea7864af45f205e506bee99526b
+Description:  The Readline library provides a set of functions for use by applications
+ that allow users to edit command lines as they are typed in. Both Emacs
+ and vi editing modes are available. The Readline library includes
+ additional functions to maintain a list of previously-entered command
+ lines, to recall and perhaps reedit those lines, and perform csh-like
+ history expansion on previous commands.
+
 Package: libsmartcols1
 Version: 2.40.2-r1
 Depends: libc, librt
@@ -1171,22 +1256,35 @@ Description:  Lua is a powerful light-weight programming language designed for e
  language. Lua is free software.
  This package contains the Lua language interpreter.
 
-Package: luci-app-4G-care
-Version: 1.7-r2
-Depends: libc, luci-base, rpcd, jsonfilter, kmod-usb-net, kmod-usb-serial
-Source: feeds/base/luci-app-4G-care
-SourceName: luci-app-4G-care
-License: GPL-3.0
+Package: luci-app-ras
+Version: 1.0-r1
+Depends: libc, luci, kmod-pack-agi
+Source: feeds/base/luci-app-ras
+SourceName: luci-app-ras
 Section: luci
 SourceDateEpoch: 1755606133
+Architecture: all
+Installed-Size: 92160
+Filename: luci-app-ras_1.0-r1_all.ipk
+Size: 14474
+SHA256sum: 2d1b487f796b91e8d125eb46ce15fa469680a650c2f78211081a240782b4f8cd
+Description:  RAS management page for 4G modem
+
+Package: luci-app-singbox
+Version: 1.0-r1
+Depends: libc, sing-box
+Source: feeds/base/luci-singbox
+SourceName: luci-app-singbox
+Section: luci
+SourceDateEpoch: 1725757394
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 40960
-Filename: luci-app-4G-care_1.7-r2_all.ipk
-Size: 6234
-SHA256sum: 3e99cac79f339e37adc3222ac8d308305b492b1c43220c033f803dbe5a4e49ba
-Description:  LuCI Support for 4G-care Modem Info
+Installed-Size: 20480
+Filename: luci-app-singbox_1.0-r1_all.ipk
+Size: 2294
+SHA256sum: e66506536df209a8ff44a85051df95d8360ce4aca7557a1574956c38320cfd65
+Description:  Luci support for Sing-Box
 
 Package: netifd
 Version: 2024.12.17~ea01ed41-r1
